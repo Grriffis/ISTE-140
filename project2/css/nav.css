@@ -1,12 +1,13 @@
 .menu {
     display: flex;
-    padding-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    flex-shrink: 1;
 
 }
 
 .menu a {
+    flex-shrink: 1;
     font-size: 20px;
     flex-direction: row;
     border-style: groove;
@@ -14,7 +15,8 @@
     background-color: #000000;
     list-style-type: none;
     text-align: center;
-    color: aliceblue
+    color: aliceblue;
+
 }
 
 .menu a:hover {
@@ -23,4 +25,5 @@
 
 .menu a.is_current {
     background-color: lightblue;
+    color: black
 }
