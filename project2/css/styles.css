@@ -2,12 +2,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   position: relative;
+  display: block;
 }
 
 section {
-  display: block;
   border-top-style: double;
-  height: 20vh;
+  height: 30vh;
 
 }
 
@@ -15,11 +15,16 @@ footer {
   border-top-style: solid;
 }
 
+p{
+
+  height: 40px;
+
+}
+
 .leftimg {
  margin-left:2%;
 float:left; 
-height:40px;
-width:40px; 
+display: flex;
 } 
 
 .righttxt {
@@ -27,13 +32,13 @@ width:40px;
     max-height:30px;
     padding:1%;
     float:left;
+    flex: 1;
 }
 
 .rightimg {
  margin-right:2%;
 float:right; 
-height:40px;
-width:40px; 
+display: flex;
 } 
 
 .lefttxt {
@@ -41,4 +46,6 @@ width:40px;
     max-height:30px;
     padding:1%;
     float:right;
+    flex: 1;
 }
+
