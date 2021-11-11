@@ -11,7 +11,9 @@ section {
 
 }
 
-
+footer {
+  border-top-style: solid;
+}
 
 .leftimg {
  margin-left:2%;
