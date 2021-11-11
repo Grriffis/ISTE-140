@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  position: relative;
+}
+
+section {
+  display: block;
+  border-top-style: double;
+  height: 20vh;
+
+}
+
+
+
+.leftimg {
+ margin-left:2%;
+float:left; 
+height:40px;
+width:40px; 
+} 
+
+.righttxt {
+    width:30%;
+    height:40px;
+    padding:1%;
+    float:left;
+}
+
+.rightimg {
+ margin-right:2%;
+float:right; 
+height:40px;
+width:40px; 
+} 
+
+.lefttxt {
+    width:30%;
+    height:40px;
+    padding:1%;
+    float:right;
+}
