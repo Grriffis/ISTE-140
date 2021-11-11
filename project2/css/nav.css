@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 2%;
+
+}
+
+.menu a {
+    font-size: 20px;
+    flex-direction: row;
+    border-style: groove;
+    border-color: darkslateblue;
+    background-color: #000000;
+    list-style-type: none;
+    text-align: center;
+    color: aliceblue
+}
+
+.menu a:hover {
+    color: #33ff33;
+}
+
+.menu a.is_current {
+    background-color: lightblue;
+}
