@@ -15,16 +15,35 @@ section {
     justify-content: flex-end;
 }
 
+h2,
+h1,
+h3 {
+
+    text-shadow: 1px 1px blue;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     border-top-style: solid;
+}
+
+img {
+    border-radius: 1%;
+    border-style: solid;
 }
 
 p {
     border-style: inset;
     height: auto;
     border-width: auto;
-    background-color: lightslategrey, 0.4;
-
+    background: rgba(100, 100, 100, 0.8);
+    border-radius: 2%;
+    padding: 0.5%;
 }
 
 .icon {
