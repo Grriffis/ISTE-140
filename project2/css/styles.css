@@ -35,7 +35,6 @@ footer {
     justify-content: flex-start;
     align-content: center;
     border-top-style: solid;
-    border-width: 200%;
     height: auto;
 }
 
@@ -47,7 +46,6 @@ img {
 p {
     border-style: inset;
     height: auto;
-    border-width: auto;
     background: rgba(60, 50, 100, 0.8);
     border-radius: 2%;
     margin: 0.5%;
