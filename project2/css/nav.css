@@ -1,8 +1,12 @@
 .menu {
     display: flex;
-    margin-bottom: 2%;
     justify-content: center;
     flex-shrink: 1;
+    position: fixed;
+    top: 0;
+    width: 70%;
+    z-index: 3;
+
 
 }
 
@@ -16,7 +20,7 @@
     list-style-type: none;
     text-align: center;
     color: aliceblue;
-
+    padding: 2%
 }
 
 .menu a:hover {
@@ -24,6 +28,8 @@
 }
 
 .menu a.is_current {
+
     background-color: lightblue;
-    color: black
+    color: black;
+    padding: 2%;
 }
