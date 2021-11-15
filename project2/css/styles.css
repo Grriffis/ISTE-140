@@ -17,6 +17,11 @@ section {
     flex-shrink: 1;
 }
 
+h1{
+   text-align: center;
+    margin-top: 6.9%
+}
+
 h2,
 h1,
 h3 {
@@ -46,9 +51,10 @@ img {
 p {
     border-style: inset;
     height: auto;
-    background: rgba(60, 50, 100, 0.8);
+    background: rgba(100, 100, 150, 0.8);
     border-radius: 2%;
     margin: 0.5%;
+    padding: 0.5%
 
 }
 
@@ -87,24 +93,26 @@ ul {
 
 }
 
-#hero1 {
+#hero2 {
     margin-left: 40%;
     border-style: none;
     position: absolute;
     z-index: 2;
-    top: 160px;
+    top: 180px;
     left: -160px;
-    width: 40%
+    width: 40%;
+    
 }
 
-#hero2 {
+#hero1 {
     margin-right: 40%;
     position: relative;
     border-style: none;
     z-index: 1;
-    top: 0px;
-    left: -300px;
-    width: 70%
+    left: -500px;
+    height: 90%;
+    
+    
 }
 
 .lead {
@@ -112,7 +120,7 @@ ul {
     align-content: center;
     margin-left: 40%;
     margin-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .sources {
